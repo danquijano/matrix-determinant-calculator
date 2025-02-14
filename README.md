@@ -3,6 +3,12 @@
 ## 📌 Descripción
 Esta aplicación interactiva calcula el determinante de una matriz ingresada por el usuario y muestra el paso a paso del cálculo. Además, proporciona información teórica clave sobre los determinantes.
 
+## 🧩 Integrantes
+Iker Alonso Fallas Fonseca C22841
+Yohana Hidalgo B43427
+José Isaac Lazo Lazo C04168
+Daniela Patricia Quijano Rivas C26146
+
 ## 🛠️ Tecnologías utilizadas
 - Python 3
 - Streamlit
