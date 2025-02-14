@@ -1,15 +1,15 @@
 import streamlit as st
 import numpy as np
 
-st.title("Matrix Determinant Calculator")
+st.title("Determinantes de una Matriz | Calculadora")
 
 st.write("""
-### Enter your matrix
-Input the size of your matrix (n x n) and then fill in the elements.
+### Ingresa la matriz a calcular
+Ingresa el tamaño de la matriz (n x n) y luego llena sus elementos.
 """)
 
 # Input matrix size
-size = st.number_input("Enter the size of the matrix (n x n):", min_value=1, value=2, step=1)
+size = st.number_input("Ingresa el tamaño de la matriz(n x n):", min_value=1, value=2, step=1)
 
 # Dynamically generate input fields for the matrix
 matrix = []
@@ -23,14 +23,14 @@ for i in range(size):
     matrix.append(row)
 
 # Display the matrix
-st.write("### Your Matrix:")
+st.write("### Tu matriz:")
 st.write(np.array(matrix))
 
 # Calculate determinant
-if st.button("Calculate Determinant"):
+if st.button("Calcular Determinante"):
     try:
         matrix_array = np.array(matrix)
         determinant = np.linalg.det(matrix_array)
-        st.write(f"### Determinant: {determinant:.2f}")
+        st.write(f"### Determinante: {determinant:.2f}")
     except:
-        st.error("Invalid matrix. Please check your input.")
+        st.error("Matriz inválida. Por favor revise los datos.")
