@@ -1,7 +1,26 @@
 import streamlit as st
 import numpy as np
 
-#INTEGRANTES: Iker Fonseca, Yohana , Isaac , Daniela Quijano#
+# Estilos CSS para mejorar el diseño
+st.markdown(
+    """
+    <style>
+        .encabezado {
+            background-color: #d4edda; /* Verde suave */
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            color: #155724;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Encabezado
+st.markdown('<div class="encabezado">INTEGRANTES: Iker Fonseca, Yohana, Isaac Lazo, Daniela Quijano<br> Profesora Jéssica Jiménez Moscoso | Proyecto - Algebra Lineal</div>', unsafe_allow_html=True)
 
 # Título de la aplicación
 st.title("Calculadora de Determinantes de Matrices")
@@ -16,14 +35,15 @@ Se calcula mediante operaciones como la regla de Sarrus (para matrices 3x3) o el
 - Si el determinante es cero, la matriz es *singular* y no tiene inversa.
 - El determinante cambia de signo si se intercambian filas.
 - Multiplicar una fila por un número multiplica el determinante por ese número.
-
-**Ejemplo:** Para una matriz 2x2:
-```
-| 2  3 |
-| 1  4 |
-Determinante = (2 * 4) - (3 * 1) = 5
-```
 """)
+
+# Sección: Información extra - Ejemplos de Determinantes
+st.write("**Ejemplos:**")
+st.image("Ejemplo1.jpg", caption="Ejemplo de matriz 2x2", use_container_width=False, width=350)
+
+st.write("")
+
+st.image("Ejemplo2.jpg", caption="Ejemplo de matriz 3x3", use_container_width=False, width=400)
 
 # Instrucciones
 st.subheader("📝 Instrucciones")
