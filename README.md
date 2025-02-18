@@ -5,7 +5,7 @@ Esta aplicación interactiva calcula el determinante de una matriz ingresada por
 
 ## 🧩 Integrantes
 - Iker Alonso Fallas Fonseca C22841
-- Yohana Hidalgo B43427
+- Yohana María Hidalgo Oviedo B43427
 - José Isaac Lazo Lazo C04168
 - Daniela Patricia Quijano Rivas C26146
 
