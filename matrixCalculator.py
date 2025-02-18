@@ -20,7 +20,7 @@ st.markdown(
 )
 
 # Encabezado
-st.markdown('<div class="encabezado">INTEGRANTES: Iker Fonseca, Yohana, Isaac Lazo, Daniela Quijano<br> Profesora Jéssica Jiménez Moscoso | Proyecto - Algebra Lineal</div>', unsafe_allow_html=True)
+st.markdown('<div class="encabezado">INTEGRANTES: Iker Fonseca, Yohana Hidalgo, Isaac Lazo, Daniela Quijano<br> Profesora Jéssica Jiménez Moscoso | Proyecto - Algebra Lineal</div>', unsafe_allow_html=True)
 
 # Título de la aplicación
 st.title("Calculadora de Determinantes de Matrices")
