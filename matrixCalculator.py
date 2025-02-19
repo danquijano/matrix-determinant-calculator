@@ -20,7 +20,7 @@ st.markdown(
 )
 
 # Encabezado
-st.markdown('<div class="encabezado">INTEGRANTES: Iker Fonseca, Yohana, Isaac Lazo, Daniela Quijano<br> Profesora Jéssica Jiménez Moscoso | Proyecto - Algebra Lineal</div>', unsafe_allow_html=True)
+st.markdown('<div class="encabezado">INTEGRANTES: Iker Fonseca, Yohana Hidalgo, Isaac Lazo, Daniela Quijano<br> Profesora Jéssica Jiménez Moscoso | Proyecto - Algebra Lineal</div>', unsafe_allow_html=True)
 
 # Título de la aplicación
 st.title("Calculadora de Determinantes de Matrices")
@@ -30,8 +30,13 @@ st.header("ℹ️ Información extra: ¿Qué es un determinante?")
 st.write("""
 El determinante de una matriz es un valor escalar que proporciona información clave sobre las propiedades de la matriz.
 Se calcula mediante operaciones como la regla de Sarrus (para matrices 3x3) o el método de eliminación gaussiana.
+         
+**Definicion:**
+""")
 
-**Propiedades clave:**
+st.image("Determinante_Definicion.PNG", use_container_width=False, width=1200)
+
+st.write("""**Propiedades clave:**
 - Si el determinante es cero, la matriz es *singular* y no tiene inversa.
 - El determinante cambia de signo si se intercambian filas.
 - Multiplicar una fila por un número multiplica el determinante por ese número.
