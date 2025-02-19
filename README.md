@@ -26,7 +26,7 @@ Esta aplicación interactiva calcula el determinante de una matriz ingresada por
 2. Guarda el archivo principal como `app.py`.
 3. Ejecuta la aplicación con el siguiente comando:
   ```bash
-  streamlit run app.py
+  streamlit run matrixCalculator.py
   ```
 
   ó
