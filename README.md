@@ -13,3 +13,19 @@ This interactive application calculates the determinant of a matrix entered by t
 - Required libraries installed:
   ```bash
   pip install streamlit numpy
+  
+## 📦 Production Build
+
+1. **Clone the repository or copy the source code.**
+2. **Save the main file as app.py.**
+3. **Run the application with the following command:**
+
+```bash
+streamlit run app.py
+```
+
+Or you ccess the application from your browser using the URL:
+
+```bash
+https://matrix-determinant-calculator-kr7g2efmlustnze92nd87c.streamlit.app/#58afc922
+```
