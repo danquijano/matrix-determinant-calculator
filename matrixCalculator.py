@@ -19,9 +19,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Header
-st.markdown('<div class="header">TEAM MEMBERS: Iker Fonseca, Yohana Hidalgo, Isaac Lazo, Daniela Quijano<br> Professor Jéssica Jiménez Moscoso | Project - Linear Algebra</div>', unsafe_allow_html=True)
-
 # Application title
 st.title("Matrix Determinant Calculator")
 
